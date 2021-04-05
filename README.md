@@ -41,3 +41,7 @@ You can also run this container as sandbox (https://sylabs.io/guides/3.0/user-gu
 singularity build --sandbox new.sif ipsychcnv.sif
 singulairty shell --no-home --writable new.sif
 ```
+
+# ToDo
+
+More iPsychCNV specific commands
