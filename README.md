@@ -7,7 +7,7 @@ This is to show how to run iPsychCNV via Docker and Singularity containers
 
 # Docker
 
-You can directly run
+You can directly pull the container
 
  ```
 docker pull bayramalex/ipsychcnv:latest
@@ -17,6 +17,13 @@ alternatively you can download repo and build via dockerfile as
  
   ```
 docker build -t ipsychcnv .
+ ```
+ 
+Then you can run the container as 
+
+
+  ```
+docker run ipsychcnv <options> .
  ```
 
 
