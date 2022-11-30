@@ -1,0 +1,2 @@
+enigma-cnv.sif filter=lfs diff=lfs merge=lfs -text
+ipsychcnv.sif filter=lfs diff=lfs merge=lfs -text
